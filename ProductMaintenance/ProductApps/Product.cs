@@ -53,6 +53,12 @@ namespace ProductApps
             set { gst = value; }
         }
 
+        private decimal TotalCharge
+        {
+            get { return TotalCharge; }
+            set { TotalCharge = value; }
+        }
+
         //Constructor for Product
         public Product(decimal price, int quantity)
         {
